@@ -44,7 +44,7 @@ export const HTML = styled('span')({
  * Object constructor
  */
 export const Constructor = styled('span')({
-  '& > span > span:nth-child(1)': {
+  '& > span > span:nth-of-type(1)': {
     opacity: 0.6,
   },
 })
